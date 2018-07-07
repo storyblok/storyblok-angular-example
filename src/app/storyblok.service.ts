@@ -16,7 +16,7 @@ export class StoryblokService {
       .then(res => res.data);
   }
 
-  getStories(params?: object): Promise<any[]> {
+  getStories(params?: object): Promise<any> {
     return this.sbClient.get('cdn/stories', params)
       .then(res => res.data);
   }
