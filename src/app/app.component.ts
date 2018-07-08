@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { StoryblokService } from './storyblok.service';
+import { Components } from './components';
 
 @Component({
   selector: 'app-root',
@@ -9,6 +10,7 @@ import { StoryblokService } from './storyblok.service';
 export class AppComponent implements OnInit {
   title = 'apps';
   story = '';
+  components = Components;
 
   constructor(private storyblokService: StoryblokService) {
     (<any>window).storyblok.init();

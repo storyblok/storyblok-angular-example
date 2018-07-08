@@ -1,3 +1,9 @@
-<p>
-  page works!
-</p>
+<div class="container">
+  <div [appStoryblok]="_editable">
+    <div *ngFor="let blok of body">
+      <ndc-dynamic [ndcDynamicComponent]="components[blok.component]"
+                   [ndcDynamicInputs]="blok">
+      </ndc-dynamic>
+    </div>
+  </div>
+</div>

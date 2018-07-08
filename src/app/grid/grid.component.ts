@@ -2,14 +2,14 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Components } from '../components';
 
 @Component({
-  selector: 'app-page',
-  templateUrl: './page.component.html',
-  styleUrls: ['./page.component.css']
+  selector: 'app-grid',
+  templateUrl: './grid.component.html',
+  styleUrls: ['./grid.component.css']
 })
-export class PageComponent implements OnInit {
+export class GridComponent implements OnInit {
   components = Components;
 
-  @Input() body: any[];
+  @Input() columns: any[];
   @Input() _editable: any;
 
   constructor() { }
