@@ -1,6 +1,11 @@
-# MyApp
+# Angular Example with Storyblok's True Live Preview Feature
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+This Angular 6 projects demonstrates the integration of the headless CMS Storyblok with it's "True Live Preview" feature.
+
+1. Create a Storyblok space and exchange the token Q2mIMuV6frKpnmQlOee0rAtt in index.html and storyblok.service.ts to your Storyblok preview token.
+2. Start the project with ng server and insert https://localhost:4200/ as location in Storyblok's live preview and you should be able to see following:
+
+![Storyblok Live preview](https://monosnap.com/image/5aELVWTN4gbLyDihUkxRKK6GX6Jqzm.png)
 
 ## Development server
 
