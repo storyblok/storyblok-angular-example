@@ -12,12 +12,12 @@ export class StoryblokService {
   constructor() { }
 
   getStory(slug: string, params?: object): Promise<any> {
-    return this.sbClient.get(`cdn/stories/${slug}`, params)
+    return this.sbClient.getStory(slug, params)
       .then(res => res.data);
   }
 
   getStories(params?: object): Promise<any> {
-    return this.sbClient.get('cdn/stories', params)
+    return this.sbClient.getStories(params)
       .then(res => res.data);
   }
 }

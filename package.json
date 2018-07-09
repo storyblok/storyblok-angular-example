@@ -23,7 +23,7 @@
     "core-js": "^2.5.4",
     "ng-dynamic-component": "^3.0.0",
     "rxjs": "^6.0.0",
-    "storyblok-js-client": "^1.0.9",
+    "storyblok-js-client": "^1.0.12",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {

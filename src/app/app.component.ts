@@ -13,8 +13,8 @@ export class AppComponent implements OnInit {
   components = Components;
 
   constructor(private storyblokService: StoryblokService) {
-    (<any>window).storyblok.init();
-    (<any>window).storyblok.on(['change', 'published'], function() {
+    window.storyblok.init();
+    window.storyblok.on(['change', 'published'],  function() {
       location.reload(true)
     });
   }
