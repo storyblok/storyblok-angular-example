@@ -8,8 +8,7 @@ import { Components } from './components';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'apps';
-  story = '';
+  story = {content: null, name: ''};
   components = Components;
 
   constructor(private storyblokService: StoryblokService) {

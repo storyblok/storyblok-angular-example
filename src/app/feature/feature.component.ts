@@ -7,6 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class FeatureComponent implements OnInit {
   @Input() name: string;
+  @Input() _editable: string;
 
   constructor() { }
 
