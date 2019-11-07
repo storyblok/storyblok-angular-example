@@ -1,19 +1,32 @@
-# Angular Example with Storyblok's True Live Preview Feature
+# Angular 8 Example with Storyblok's 
 
-This Angular 6 projects demonstrates the integration of the headless CMS Storyblok with it's "True Live Preview" feature.
-
-1. Create a Storyblok space and exchange the token Q2mIMuV6frKpnmQlOee0rAtt in index.html and storyblok.service.ts with your Storyblok preview token.
-2. Start the project with `ng serve` and insert https://localhost:4200/ as location in Storyblok's live preview and you should be able to see following:
+This **Angular 8** projects demonstrates the integration of the headless CMS Storyblok with it's "True Live Preview" feature.
 
 ![Storyblok Live preview](https://monosnap.com/image/5aELVWTN4gbLyDihUkxRKK6GX6Jqzm.png)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### To see the full tutorial of this boilerplate, go to [storyblok](https://).
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Run project
+To run this project follow the steps below:
+1. Clone this repository:
+```bash 
+  git clone https://github.com/storyblok/storyblok-angular-example.git
+```
+2. Install all dependencies: 
+```bash
+  npm install
+```
+3. Create a [Storyblok space](https://app.storyblok.com/) and copy your preview token and exchange the token in arquive src/app/storyblok.service.ts
+<br />
+
+4. If all went well, run the command:
+```bash
+  npm start
+```
+
+##### Run to `http://localhost:4200/`
 
 ## Build
 
