@@ -1,8 +1,8 @@
-# Angular 8 Example with Storyblok's 
+# Angular 8 Example with Storyblok live preview
 
 This **Angular 8** projects demonstrates the integration of the headless CMS Storyblok with it's "True Live Preview" feature.
 
-![Storyblok Live preview](https://monosnap.com/image/5aELVWTN4gbLyDihUkxRKK6GX6Jqzm.png)
+![Storyblok Live preview](http://img.storyblok.com/Ei1F79s0rE_5ijPKDPIiLQBQyDA=/840x0/filters:filters:fill(FFFFFF):filters:format(jpeg)/f/51376/2870x1548/c332fe9c67/angular-5-minutes-tutorial-finish.png)
 
 
 #### To see the full tutorial of this boilerplate, go to [storyblok](https://).
