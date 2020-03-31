@@ -1,20 +1,22 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Components } from '../components';
+import { StoryblokService } from '../storyblok.service';
 
 @Component({
   selector: 'app-grid',
   templateUrl: './grid.component.html',
   styleUrls: ['./grid.component.css']
 })
+
 export class GridComponent implements OnInit {
-  components = Components;
+  components: any;
+  constructor(private storyblok: StoryblokService) {
+    import('src/app/components').then(cp => {
+      this.components = cp.Components;
+    });
+  }
 
   @Input() columns: any[];
   @Input() _editable: any;
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() { }
 }
