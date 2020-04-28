@@ -6,7 +6,7 @@ import Client from 'storyblok-js-client';
 })
 export class StoryblokService {
   private sbClient = new Client({
-    accessToken: 'Q2mIMuV6frKpnmQlOee0rAtt'
+    accessToken: 'MYDG6l3YpXRhqmMQu9g6Igtt'
   });
 
   constructor() { }

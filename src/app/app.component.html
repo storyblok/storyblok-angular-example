@@ -1,8 +1,5 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Pagename: {{ story.name }}
-  </h1>
+<div class="root">
+ 
   <div *ngIf="story.content">
     <ndc-dynamic [ndcDynamicComponent]="components[story.content.component]"
                  [ndcDynamicInputs]="story.content">
