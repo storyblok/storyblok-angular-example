@@ -1,3 +1,7 @@
+> [!WARNING]
+> This repository is no longer maintained.
+> For a current Angular + Storyblok starter, use [blueprint-core-angular](https://github.com/storyblok/blueprint-core-angular).
+
 # Angular 8 Example with Storyblok live preview
 
 This **Angular 8** projects demonstrates the integration of the headless CMS Storyblok with it's "True Live Preview" feature.
